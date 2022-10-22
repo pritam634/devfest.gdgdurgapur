@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Google Sans';
+  src: local('Google Sans'), url(./Fonts/GoogleSans-Regular_0.ttf) format('truetype');
+}
+
+body {
+  font-family: 'Google Sans';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
+}

@@ -1,0 +1,64 @@
+:root {
+    --color1: #4285f4;
+    --color2: #ea4335;
+    --color3: #fbbc04;
+    --color4: #34a853;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 35vh;
+    padding: 20px;
+
+    .heading {
+        color: #c4c4c4;
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin-bottom: 55px;
+    }
+    .timer_box {
+        display: flex;
+    }
+    .timer_box span {
+        padding: 22px 20px;
+        background: red;
+        font-size: 25px;
+        margin: 0 5px;
+        font-weight: 600;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .timer_box span div {
+        font-size: 14px;
+    }
+
+    .timer_box span:nth-child(1) {
+        background: var(--color1);
+    }
+
+    .timer_box span:nth-child(2) {
+        background: var(--color2);
+    }
+
+    .timer_box span:nth-child(3) {
+        background: var(--color3);
+    }
+
+    .timer_box span:nth-child(4) {
+        background: var(--color4);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container{
+        .timer_box span {
+            padding: 18px 16px !important;
+        }
+    }
+}
