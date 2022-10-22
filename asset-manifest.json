@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/devfest.gdgdurgapur/static/css/main.6d72a3d3.css",
+    "main.js": "/devfest.gdgdurgapur/static/js/main.f5282de0.js",
+    "static/js/787.6bbfc803.chunk.js": "/devfest.gdgdurgapur/static/js/787.6bbfc803.chunk.js",
+    "static/media/GoogleSans-Regular_0.ttf": "/devfest.gdgdurgapur/static/media/GoogleSans-Regular_0.0d01ceaea2903216c4ee.ttf",
+    "index.html": "/devfest.gdgdurgapur/index.html",
+    "main.6d72a3d3.css.map": "/devfest.gdgdurgapur/static/css/main.6d72a3d3.css.map",
+    "main.f5282de0.js.map": "/devfest.gdgdurgapur/static/js/main.f5282de0.js.map",
+    "787.6bbfc803.chunk.js.map": "/devfest.gdgdurgapur/static/js/787.6bbfc803.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d72a3d3.css",
+    "static/js/main.f5282de0.js"
+  ]
+}
